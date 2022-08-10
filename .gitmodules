@@ -1,0 +1,6 @@
+[submodule "scoosign"]
+	path = scoosign
+	url = https://github.com/Hadramet/scoosign
+[submodule "scoosign-backend"]
+	path = scoosign-backend
+	url = https://github.com/Hadramet/scoosign-backend
