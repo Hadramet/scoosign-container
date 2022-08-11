@@ -1,0 +1,17 @@
+services:
+
+  backend:
+    build: "./scoosign-backend"
+    ports:
+    - "5000:5000"
+    environment:
+      - DOTENV_ME=me_21e7c958b7c7ee96346d89001e7c0fbee548a08c2799524869ffda2cb33d7cac
+  frontend:
+    build: "./scoosign"
+    ports:
+    - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - BACKEND_URI=http://${BACKEND_URI_EXTERNAL_URI}:5000
+    depends_on:
+      - backend
