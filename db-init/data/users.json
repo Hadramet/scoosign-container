@@ -1,0 +1,137 @@
+[
+  {
+    "_id": {
+      "$oid": "62e16ffb97a5c0f2d157160e"
+    },
+    "firstName": "Admin",
+    "lastName": "admin",
+    "email": "admin@scoosign.com",
+    "role": "admin",
+    "active": true,
+    "created_at": {
+      "$date": {
+        "$numberLong": "1658941435943"
+      }
+    },
+    "updated_at": {
+      "$date": {
+        "$numberLong": "1658941435974"
+      }
+    },
+    "salt": "4f58cdfcf3ba52f3e61047731c0272342ca69d0131b08d0d56d11cf7e627a515bfc106435c663c96b990748d6471efdde7844dbd91acf05935c588c66862ff14",
+    "hash": "f16d9f799a646121cef46de4ae9f2fc8617465d03b70c244b8401c2cca6e3a272152ee917c3f6e582ff6cea0ecdd9990eddd2c7e5537710a2cc12329c4a97eaacc4851fc8f76c73782070d7fec7c72263edc94c4ddef7edc0792d6f67913ee6415194cd9d2271e1483b30819b31508194d1ddc3ddd0ffb7615870131a1762d777f240cd74cda150b9c0c3a11ae36f5aafb2980576928a39826403c7db68909247ccddb486bf6d33cdaee600c7faa5e81227ebecb258ecd4292af947be77ec1f649793fdfa4bca646f6d2f484d6aae6790551ee6026cbb72fbfadec26e6872d42dbfbbaf01505f76fde555378fb37136909e4f7ff8370cf51f56a190068395a",
+    "created_by": {
+      "$oid": "62e157c54d3f2cb0c7f9512f"
+    },
+    "__v": 0,
+    "lastUpdate": {
+      "$date": {
+        "$numberLong": "1659314934965"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "630e88d27aae9e09bbee377d"
+    },
+    "firstName": "Scoo",
+    "lastName": "Student",
+    "email": "student@scoosign.com",
+    "role": "student",
+    "active": true,
+    "created_at": {
+      "$date": {
+        "$numberLong": "1661896914450"
+      }
+    },
+    "updated_at": {
+      "$date": {
+        "$numberLong": "1661896914455"
+      }
+    },
+    "salt": "fb2dccd6b485acb16e71e6fa058c52849923bb7d9c81cea67604eab60df1cb747839ae3fbcf5518b4b7752351eb10b2b61e0d41d5bc0d3fddff89ccae752100a",
+    "hash": "302ab598b7e77d06c41abff89b2640532847202a54c30baafcb19523ca2ed61c74210e70439d3a7d1c9d936c407c4c5e4d28cfc1513211d33806e01d406bffe7176346a0dbc89cc1f1faae6f63fc25ac3c32828aead4609843e75d1432401e700b5aac47bb9b2fc536bab6f159777eef98a83de4534a3371b92429dac7d1149767a97969047a8ad76a71e4934b24163ec445ae03fe4e7be37a646bc8cda02d5947bb7139273f641636c6334a3919e887fd23136ce3c38155c08e04f83a785aaacd8e43cae7551a57947c1ad9535c3258e4c37f62e36d1d3b2fdbea2b0874e90f78d9e45eb1f10841d666291e15ef012d9385fda0962ced22d5df154445fe86",
+    "created_by": {
+      "$oid": "62e16ffb97a5c0f2d157160e"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "630e893a7aae9e09bbee3788"
+    },
+    "firstName": "Scoo",
+    "lastName": "Aca",
+    "email": "aca@scoosign.com",
+    "role": "academic",
+    "active": true,
+    "created_at": {
+      "$date": {
+        "$numberLong": "1661897018727"
+      }
+    },
+    "updated_at": {
+      "$date": {
+        "$numberLong": "1661897018731"
+      }
+    },
+    "salt": "9868f62ea8885e1ed8ab4e5821c45288eee531c7e6fde1fc73775a86d4d5a06848738d39c99fe49ebd96f5b0109eb4dd613de0470f593b5707c6c4f90bad3031",
+    "hash": "8d812a7a3e3d7e7de1aa7d1ce2298c5043bdd0c72b3efcb41a4f892e16f60149dc685a74ad49175c69d3fc1546d2714258dda7fb86374ed2cfb887cff131b39ad71e1ebe24f03120521a587ae6aca31158f425f54f516e1bb4ea31ef6d31896757bf741c1ac5f754c53ab802661409f98cbac09a3484ba7c443098d7fe0de30f4b8b39aa424f305342b92598e674171384534c13dad1d164ab14887eddc661b2fa8dda15fdafe88061d43766ec37319bd3cc4517f9d8091598fe40a977f1b5f96e969f9c385c58de23df24862832f3e06b36c0585c37f53993cfae4c5d4f19b2aa367ec6c3d84ad13187297e7c06c8270a7bbcd7bb3f35e5f982861a0eeaab",
+    "created_by": {
+      "$oid": "62e16ffb97a5c0f2d157160e"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "630e89d07aae9e09bbee3797"
+    },
+    "firstName": "Jean",
+    "lastName": "Mathteacher",
+    "email": "teach.math@scoosign.com",
+    "role": "teacher",
+    "active": true,
+    "created_at": {
+      "$date": {
+        "$numberLong": "1661897168462"
+      }
+    },
+    "updated_at": {
+      "$date": {
+        "$numberLong": "1661897168467"
+      }
+    },
+    "salt": "4f58cdfcf3ba52f3e61047731c0272342ca69d0131b08d0d56d11cf7e627a515bfc106435c663c96b990748d6471efdde7844dbd91acf05935c588c66862ff14",
+    "hash": "f16d9f799a646121cef46de4ae9f2fc8617465d03b70c244b8401c2cca6e3a272152ee917c3f6e582ff6cea0ecdd9990eddd2c7e5537710a2cc12329c4a97eaacc4851fc8f76c73782070d7fec7c72263edc94c4ddef7edc0792d6f67913ee6415194cd9d2271e1483b30819b31508194d1ddc3ddd0ffb7615870131a1762d777f240cd74cda150b9c0c3a11ae36f5aafb2980576928a39826403c7db68909247ccddb486bf6d33cdaee600c7faa5e81227ebecb258ecd4292af947be77ec1f649793fdfa4bca646f6d2f484d6aae6790551ee6026cbb72fbfadec26e6872d42dbfbbaf01505f76fde555378fb37136909e4f7ff8370cf51f56a190068395a",
+    "created_by": {
+      "$oid": "62e16ffb97a5c0f2d157160e"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "630e8a4f7aae9e09bbee379f"
+    },
+    "firstName": "Scoo",
+    "lastName": "Momanddad",
+    "email": "momanddad@scoosign.com",
+    "role": "parent",
+    "active": true,
+    "created_at": {
+      "$date": {
+        "$numberLong": "1661897295768"
+      }
+    },
+    "updated_at": {
+      "$date": {
+        "$numberLong": "1661897295773"
+      }
+    },
+    "salt": "7ded8444e5c76c5750d4e69322b780fad5c092ddc2278dba64508bc935a4306b96170ed3f0575b151ebc6e887f8e1c407540e1fb1dcf612ef575177fb6bc4a7c",
+    "hash": "676daa83de368800a32163bee45952727cadab264c492eb82fb92961494a1f2c72049acd02e9c5a89d2d35808007bbdf7da8d03838471ac878de1b2749f4256cbe7b366cd86527230361118e44f19605a5c0dc2bda674e8f0509428dee1df39a0bcd7e1d0f823127a374303c86bba54568d2fb918790b65f80630bff86cbf28a688a0d0ee51cdc8e8093cf0ab931caa40e41e971c940609289e8b27653714d390a3de091e15d78e6aeeb8b66df4d78972f2ede09c7470974b125f1a84efe311853906c5bbc374da80150742fbbdf283f44e1364834d7d919699374a0a84bc65935443dcee7b5b93a6d7b58fd39e94c31c311ddd3a74c19b55e52338ca3366c",
+    "created_by": {
+      "$oid": "62e16ffb97a5c0f2d157160e"
+    },
+    "__v": 0
+  }
+]

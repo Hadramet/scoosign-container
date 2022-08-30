@@ -1,0 +1,42 @@
+[
+  {
+    "_id": {
+      "$oid": "630e899f7aae9e09bbee378e"
+    },
+    "user": {
+      "$oid": "630e899f7aae9e09bbee378c"
+    },
+    "specialty": "Math",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1661897119573"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1661897119573"
+      }
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "630e89d07aae9e09bbee3799"
+    },
+    "user": {
+      "$oid": "630e89d07aae9e09bbee3797"
+    },
+    "specialty": "Math",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1661897168471"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1661897168471"
+      }
+    },
+    "__v": 0
+  }
+]

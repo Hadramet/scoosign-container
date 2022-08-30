@@ -1,12 +1,28 @@
+# This is just for demo purpose
 services:
-
+  mongodb:
+      container_name: scoo-mongodb
+      image: mongo:5.0
+      volumes:
+        - ./db-init:/docker-entrypoint-initdb.d
+        - ./db-init/data:/tmp/data
+      # command: mongod --quiet --logpath /dev/null
+      ports:
+      - '27017:27017'
   backend:
+    container_name: scoo-back-end
     build: "./scoosign-backend"
     ports:
     - "5000:5000"
     environment:
-      - DOTENV_ME=me_21e7c958b7c7ee96346d89001e7c0fbee548a08c2799524869ffda2cb33d7cac
+      # - DOTENV_ME=me_21e7c958b7c7ee96346d89001e7c0fbee548a08c2799524869ffda2cb33d7cac
+      - JWT_EXPIRES_IN=24h
+      - JWT_SECRET=scoosign-top-secret-key
+      - JWT_TOKEN_HEADER_KEY=X-Scoosign-Authorization
+      - MONGODB_URI=mongodb://${BACKEND_URI_EXTERNAL_URI}:27017/scoosign
+      - PORT=5000
   frontend:
+    container_name: scoo-front-end
     build: "./scoosign"
     ports:
     - "3000:3000"

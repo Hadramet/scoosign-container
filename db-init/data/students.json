@@ -1,0 +1,22 @@
+[
+  {
+    "_id": {
+      "$oid": "630e88167aae9e09bbee3767"
+    },
+    "groups": [],
+    "user": {
+      "$oid": "630e88167aae9e09bbee3765"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "630e88d27aae9e09bbee377f"
+    },
+    "groups": [],
+    "user": {
+      "$oid": "630e88d27aae9e09bbee377d"
+    },
+    "__v": 0
+  }
+]
